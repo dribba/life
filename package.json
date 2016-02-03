@@ -1,0 +1,32 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "Game of life",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --config src/javascript/conf/webpack-config.js",
+    "watch": "watch 'npm run compile' src --filter=src/javascript/conf/watch-filter.js"
+  },
+  "keywords": [
+    "fp",
+    "game",
+    "of",
+    "life",
+    "conway"
+  ],
+  "author": "dribba",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "webpack": "^1.12.12",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "watch": "^0.17.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "ramda": "^0.19.1",
+    "react-dom": "^0.14.7"
+  }
+}
