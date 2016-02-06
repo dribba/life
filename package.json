@@ -25,8 +25,8 @@
     "watch": "^0.17.1"
   },
   "dependencies": {
-    "react": "^0.14.7",
     "ramda": "^0.19.1",
+    "react": "^0.14.7",
     "react-dom": "^0.14.7"
   }
 }
