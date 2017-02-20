@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana;
+  color: #BBB;
+  background-color: #333;
+}
+
+.cell {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border: 1px solid #BBB;
+  position: absolute;
+}
+
+.cell.alive {
+  background-color: green;
+  border-color: #BBB;
+}
+
+.world {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  display: block;
+  float: left;
+}
+.controls {
+  float: left;
+  width: 300px;
+  padding: 10px;
+}
+.controls span, .controls button {
+  padding: 10px;
+}
+.controls button {
+  margin: 10px 10px 10px 0px;
+}
+.controls button:first-child {
+  margin: 10px;
+}
+#game-container {
+  display: block;
+}
